@@ -21,11 +21,11 @@ public class ArrayListTest {
         for (int i = 0; i < nameList.size(); i++) {
 
             if (nameList.get(i).contains("Denis")) {
-                System.out.println(nameList.get(0) + " " + "ну точно Артём");
+                System.out.println(nameList.get(i) + " " + "ну точно Артём");
                 break;
 
-            } else System.out.println(nameList);
-                break;
+            } else System.out.println(nameList.get(i));
+ //               break;
         }
     }
 }
